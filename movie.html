@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        *{
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+        button {            
+            padding: 0.5rem 1rem;
+            font-weight: bold;
+            display: inline-block;
+            width: auto;        
+            border: 1px solid black;
+            border-radius: 4px;
+            background: gray;
+            cursor: pointer;
+            text-align: center;
+            margin-left : 10px;
+        }
+        button:hover{
+            background: white;
+            color: black;
+        }
+        .img_section{
+            margin-top : 30px;
+        }
+        .title{
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>영화 추천🍿</h1>
+    <button onClick="spiderman()">스파이더맨</button>
+    <button onClick="harrypotter()">해리포터</button>
+    <button onClick="twilight()">트와일라잇</button>
+    <button onClick="summer500()">500일의 썸머</button>
+
+    <div class = "img_section">
+        <img alt ="" class="img">
+    </div>
+
+    <div class = "title"></div>
+    <div class = "engtitle"></div>
+    <div class = "date"></div>
+
+
+
+    <script src="./movie.js"></script>
+</body>
+</html>
